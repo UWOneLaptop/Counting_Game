@@ -1,11 +1,16 @@
-#VIEW STARTS - PUT IN SEPARATE FILE LATER
+# TODO: NEEDS TO BE IMPLEMENTED
 class View:
-    ...
-    def display_question(question, callback):
+    def __init__(self):
+        pass
+    def display_question(self, question, callback):
+        # TODO: Parse question to know how to represent the animals/objects
         self.callback = callback
-        ....
-    def some_method_handling_user_made_input(user_input):
-        selfID:  uw.onelaptop@gmail.com
-    def background():
+        print(question) # Test
+    def handle_answer(self, user_input):
+        #self.callback(user_input)
+        pass
+    def background(self):
         #show window background 
-    def correct_view
+        pass
+    def correct_view(self):
+        pass
